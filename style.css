@@ -1,0 +1,118 @@
+
+body {
+  background-image: url('https://catherineasquithgallery.com/uploads/posts/2023-01/1674250593_catherineasquithgallery-com-p-seraya-podlozhka-fon-foto-1.jpg'); 
+}
+
+.merch {
+  color: Red;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+.pop {
+  text-align: center;
+  font-style: italic;
+  color: red;
+
+}
+.chemp {
+
+  color: white;
+
+} 
+.mat{
+  font-size: 69px;
+  text-align: center;
+  font-style: italic;
+  color: yellow;
+
+}
+.mot {
+  font-size: 69px;
+  text-align: center;
+  font-style: italic;
+  color: orange;
+
+}
+.name{
+  text-align: justify;
+  font-style: oblique;
+  color: white;
+
+
+}
+.fam {
+
+  text-align: center;
+  font-style: oblique;
+  color: white;
+
+
+}
+.ob{
+  color: white;
+ text-align: center;
+
+}
+.item{
+
+  text-align: center;
+}
+.ot {
+  text-align: right;
+  font-style: oblique;
+  color: white;
+
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
